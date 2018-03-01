@@ -74,4 +74,9 @@
     }
   });
 
+  // Disable dummy links
+  $('a[href="#"]').click(function(e) {
+    e.preventDefault();
+  });
+
 })(jQuery); // End of use strict
