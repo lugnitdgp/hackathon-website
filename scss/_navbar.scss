@@ -1,7 +1,5 @@
 // Styling for the navbar
 #mainNav {
-  border-bottom: 1px solid fade-out($gray-900, .9);
-  background-color: $white;
   @include sans-serif-font;
   @include transition-all;
   .navbar-brand {
@@ -34,6 +32,10 @@
         }
       }
     }
+  }
+  &.navbar-shrink {
+    background-color: $white;
+    border-bottom: 1px solid fade-out($gray-900, .9);
   }
   @media (min-width: 992px) {
     border-color: transparent;
