@@ -185,7 +185,8 @@ header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
   background-image: url("../img/header.jpg");
-  background-position: center center;
+  background-position: left bottom;
+  color: rgba(248, 249, 250, 0.9);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

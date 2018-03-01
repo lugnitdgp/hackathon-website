@@ -3,7 +3,8 @@ header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
   background-image: url('../img/header.jpg');
-  background-position: center center;
+  background-position: left bottom;
+  color: fade-out($gray-100, .1);
   @include background-cover;
   hr {
     margin-top: 30px;
