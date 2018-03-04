@@ -93,6 +93,7 @@ img::-moz-selection {
 }
 
 #mainNav {
+  background-color: rgba(33, 37, 41, 0.4);
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -115,12 +116,12 @@ img::-moz-selection {
   font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #212529;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #F05F40;
+  color: #fff;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
@@ -140,10 +141,6 @@ img::-moz-selection {
 }
 
 @media (min-width: 992px) {
-  #mainNav {
-    border-color: transparent;
-    background-color: transparent;
-  }
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
   }
@@ -152,14 +149,6 @@ img::-moz-selection {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
-  }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link,
-  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: rgba(255, 255, 255, 0.7);
-  }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
-  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #fff;
   }
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
@@ -187,6 +176,7 @@ header.masthead {
   background-image: url("../img/header.jpg");
   background-position: left bottom;
   color: rgba(248, 249, 250, 0.9);
+  height: 100vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

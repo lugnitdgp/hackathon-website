@@ -5,6 +5,7 @@ header.masthead {
   background-image: url('../img/header.jpg');
   background-position: left bottom;
   color: fade-out($gray-100, .1);
+  height: 100vh;
   @include background-cover;
   hr {
     margin-top: 30px;
