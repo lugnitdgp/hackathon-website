@@ -30,7 +30,7 @@
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
-      $("#mainNav .navbar-brand").html("Aavishkar 2018");
+      $("#mainNav .navbar-brand").html("Aavishkar 2.0");
     } else {
       $("#mainNav").removeClass("navbar-shrink");
       $("#mainNav .navbar-brand").html('<img src="img/aavishkar-logo.png" height="80px">');
