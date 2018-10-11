@@ -16,22 +16,22 @@
   .navbar-nav {
     > li.nav-item {
        > a.nav-link,
-      > a.nav-link:focus {
-        font-size: .9rem;
-        font-weight: 700;
-        text-transform: uppercase;
-        color: fade-out($white, .3);
-        &:hover {
-          color: $white;
-        }
-        &.active {
-          color: $primary !important;
-          background-color: transparent;
-          &:hover {
-            background-color: transparent;
-          }
-        }
-      }
+       > a.nav-link:focus {
+         font-size: .9rem;
+         font-weight: 700;
+         text-transform: uppercase;
+         color: fade-out($gray-900, .3);
+         &:hover {
+           color: $primary;
+         }
+         &.active {
+           color: $primary !important;
+           background-color: transparent;
+           &:hover {
+             background-color: transparent;
+           }
+         }
+       }
     }
   }
   &.navbar-shrink {
